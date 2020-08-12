@@ -4,20 +4,29 @@
   **/
 
 
+// Variables
+@import './variables.scss';
+@import './function.scss';
+@import './mixin.scss';
 
 // Global Reset / Base
 @import './_agent-reset.css';
-@import './_base.scss';
-
-// Variables
-@import './variables.scss';
-@import './mixin.scss';
+@import './base.scss';
 
 // Components
 // @import './preloader.scss';
 @import './app.scss';
 
-
 // Layout
 // @import './footer.scss';
 // @import './mobile.scss';
+
+// Pages
+// @import './home.scss'  //home specific styles
+
+// Theme
+// @import './theme.scss' //default theme
+// @import './admin.scss' //admin theme
+
+// Vendors
+// @import './vendors.scss';  // import other frameworks
